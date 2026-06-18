@@ -1,0 +1,25 @@
+---
+title: Send Worklists from DC305 to PULSE (DC Unlimited only)
+slug: send-worklists-from-dc305-to-pulse-dc-unlimited-only
+docTags: 
+createdAt: Fri Feb 13 2026 17:44:44 GMT+0200 (Eastern European Standard Time)
+---
+
+Based on how \{\{DC-UI.DC-ProdNameShort}} creates each type of list, the actions you must take to send them to the \{\{General.ProductName-short}} varies.
+
+- Send \{\{Worklists.HospitalListUI-Web}} to \{\{General.ProductName-short}}Use \{\{masterVAS-Products.Pulse-only}} or \{\{DC-UI.DC-ProdNameShort}} to create your \{\{Worklists.HospListCommonUse}}s with a special type of LIST command. For \{\{DC-UI.DC-ProdNameShort}} lists, adding the \HK switch to the commands sends them to \{\{masterVAS-Products.Pulse-only}}. Most \{\{masterVAS-Terminology.d-airies}} schedule \{\{Worklists.HospListCommonUse}}s to run daily to ensure treatment protocols are properly followed, as drugs are usually administered on a daily basis.You can then process your lists in the mobile app and [monitor them in the web version of PULSE](../../../MobileApp/Worklists/MonitorListsMob.htm). See the topics below to learn more:\* [Learn More about Hospital Lists](HospLists.htm)
+  - [Learn More about Vet Lists](VetLists.htm)
+  - [Complete Tasks (v1)](../../../MobileApp/Worklists/CompleteTasks.htm)
+  - [Complete Tasks (v2)](../../../DC-Mobile/MobAppTasks.htm)
+- Send \{\{Worklists.ToDoUI-Web}} Lists to \{\{General.ProductName-short}}: \{\{Worklists.ToDoUI-Web}} lists are very flexible and can be created from \{\{masterVAS-Products.Pulse-only}} or \{\{DC-UI.DC-ProdNameShort}}. For \{\{DC-UI.DC-ProdNameShort}} lists, adding the \K switch to the commands sends them to \{\{masterVAS-Products.Pulse-only}}. See [Learn More about To-Do Lists](ToDoLists.htm) for more information.
+- Send \{\{Worklists.VetListUI-Web}} to \{\{General.ProductName-short}}: Use \{\{masterVAS-Products.Pulse-only}} or \{\{DC-UI.DC-ProdNameShort}} to create your \{\{Worklists.VetListCommonUse}}s with a special VETLIST command. For \{\{DC-UI.DC-ProdNameShort}} lists, adding the \K switch to the commands sends them to \{\{masterVAS-Products.Pulse-only}}. The flexibility of the system allows you to schedule the \{\{Worklists.VetListCommonUse}}s to generate on days the veterinarian is scheduled to visit, or to generate and send them on an as-needed basis.
+
+<ExpandableHeading>
+  ## Related Topics
+
+  - [View Tasks & Worklists in the Mobile App (v1)](../../../MobileApp/Worklists/ViewListsMob.htm)
+  - [View Animal Status in the Mobile App (v1)](../../../MobileApp/Worklists/MonitorListsMob.htm)
+  - [Tips for Using Worklists in the Mobile App (v1)](../../../MobileApp/Worklists/TipsForUsingWklstsMobile.htm)
+  - [Get Started! (v2)](<../../../../../../Mobile Apps/DC on Mobile (v2)/get-started-v2.mdx>)
+  - [Complete Tasks (v2)](../../../DC-Mobile/MobAppTasks.htm)
+</ExpandableHeading>
