@@ -1,0 +1,8 @@
+{
+  "docsPath": "docs/",
+  "structure": {
+    "docsTree": [
+      { "path": "fold-parent.mdx", "children": [] }
+    ]
+  }
+}
