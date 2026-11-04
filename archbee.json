@@ -2,7 +2,20 @@
   "docsPath": "docs/",
   "structure": {
     "docsTree": [
-      { "path": "fold-parent.mdx", "children": [] }
+      {
+        "path": "fold-parent.mdx",
+        "children": [
+          {
+            "path": "fold-parent/fold-child-two.mdx",
+            "children": []
+          },
+          {
+            "path": "fold-parent/wHUrzxVGhE4bjbsBaGjvI.mdx",
+            "children": []
+          }
+        ]
+      }
     ]
-  }
+  },
+  "autoMerge": false
 }
